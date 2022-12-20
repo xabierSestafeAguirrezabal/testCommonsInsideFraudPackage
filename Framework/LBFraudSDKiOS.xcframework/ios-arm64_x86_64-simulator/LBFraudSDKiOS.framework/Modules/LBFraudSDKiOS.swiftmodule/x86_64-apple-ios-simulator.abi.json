@@ -1049,7 +1049,10 @@
         "name": "IronchipCommonsIos",
         "printedName": "IronchipCommonsIos",
         "declKind": "Import",
-        "moduleName": "LBFraudSDKiOS"
+        "moduleName": "LBFraudSDKiOS",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -1128,28 +1131,28 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 447,
+      "offset": 468,
       "length": 10,
       "value": "\"Ironchip\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 530,
+      "offset": 551,
       "length": 22,
       "value": "\"Ironchip-Transaction\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 622,
+      "offset": 643,
       "length": 19,
       "value": "\"Ironchip-Location\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 707,
+      "offset": 728,
       "length": 18,
       "value": "\"Ironchip-Signals\""
     }

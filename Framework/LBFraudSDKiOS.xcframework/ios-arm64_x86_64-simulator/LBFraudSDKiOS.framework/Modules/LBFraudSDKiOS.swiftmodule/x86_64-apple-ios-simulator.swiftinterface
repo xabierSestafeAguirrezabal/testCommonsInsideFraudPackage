@@ -5,7 +5,6 @@
 import CoreLocation
 import CryptoKit
 import Foundation
-import IronchipCommonsIos
 @_exported import LBFraudSDKiOS
 import Swift
 import _Concurrency
