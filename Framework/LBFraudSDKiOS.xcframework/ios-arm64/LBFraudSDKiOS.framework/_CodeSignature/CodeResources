@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/IronchipCommonsIos.framework/Info.plist</key>
-		<data>
-		eLj+xLYLplWUybm7btz/dy4/otU=
-		</data>
-		<key>Frameworks/IronchipCommonsIos.framework/IronchipCommonsIos</key>
-		<data>
-		6f7nwHM03I7FIz6RsJn6AWFHU54=
-		</data>
-		<key>Frameworks/IronchipCommonsIos.framework/_CodeSignature/CodeResources</key>
-		<data>
-		s+EuhRRUKZwz1I+7rDayWhrCZ/4=
-		</data>
 		<key>Headers/LBFraudSDKiOS-Swift.h</key>
 		<data>
 		aRx1cEKUkHxfuqBgjPYAwID2sTs=
@@ -55,27 +43,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/IronchipCommonsIos.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+J/gRGDEP95BbJUfjWBUGMGOJeKMGJ7+GsI+foF/IIc=
-			</data>
-		</dict>
-		<key>Frameworks/IronchipCommonsIos.framework/IronchipCommonsIos</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DJ85dEeMV2bqAMv197JFyjJ2U8F7wQCxwoX97tGrZew=
-			</data>
-		</dict>
-		<key>Frameworks/IronchipCommonsIos.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kl/bq3a9AlMq+9DL8rv22Svf/Ebr0hY4bjW2TVus48U=
-			</data>
-		</dict>
 		<key>Headers/LBFraudSDKiOS-Swift.h</key>
 		<dict>
 			<key>hash2</key>
