@@ -1,0 +1,55 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LBFraudSDKiOS
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
+import CryptoKit
+import Foundation
+import IronchipCommonsIos
+@_exported import LBFraudSDKiOS
+import Swift
+import _Concurrency
+import _StringProcessing
+import os
+public struct TransactionError : Swift.Error {
+  public enum ErrorType {
+    case errorCode
+    public static func == (a: LBFraudSDKiOS.TransactionError.ErrorType, b: LBFraudSDKiOS.TransactionError.ErrorType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public let message: Swift.String
+  public let code: Swift.String
+  public let traceability_id: Swift.String?
+  public let http_code: Swift.Int
+}
+public struct Codes {
+}
+public struct TransactionResponseData : Swift.Decodable {
+  public let error: Swift.String
+  public let error_code: Swift.String
+  public let traceability_id: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct LBFraudSDK {
+  public init(apikey: Swift.String)
+  public init(apikey: Swift.String, environment: LBFraudSDKiOS.Environment)
+  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
+}
+public enum Environment : Swift.String {
+  case Production
+  case Testing
+  case Development
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Equatable {}
+extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Hashable {}
+extension LBFraudSDKiOS.Environment : Swift.Equatable {}
+extension LBFraudSDKiOS.Environment : Swift.Hashable {}
+extension LBFraudSDKiOS.Environment : Swift.RawRepresentable {}
